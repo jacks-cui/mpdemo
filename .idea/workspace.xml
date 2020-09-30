@@ -17,21 +17,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5d8b6e27-7b8c-4232-b014-3bf025ed3e7b" name="Default Changelist" comment="练习">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/factory/Bmw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/factory/BmwX3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/factory/BmwX5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/factory/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/factory/SimpleFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/factorymethod/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/factorymethod/BikeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/factorymethod/Bmw.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/factorymethod/BmwFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/factorymethod/CarProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/factorymethod/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/factorymethod/ProductFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/factorymethod/Train.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/factorymethod/TrainFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/abstractfactory/Bmw320Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/abstractfactory/BmwX5Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/abstractfactory/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/abstractfactory/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/abstractfactory/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/abstractfactory/HongDouEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/abstractfactory/HongDouTires.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/abstractfactory/KunLunEngine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/abstractfactory/KunLunTires.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cent/design/abstractfactory/Tires.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="2916931f-a522-47f1-bf57-fc115adb82a9" name="Revert &quot;表格导入&quot;" comment="Revert &quot;表格导入&quot;&#10;&#10;This reverts commit 7910a5b7" />
@@ -59,7 +54,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1gtmHblmIxi88TEUJu2KMhkPy1S" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -86,7 +83,7 @@
       <recent name="E:\study\mpdemo\src\main\resources\mapper" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.Client (2)">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cent.design.factorymethod.Client" />
       <module name="mpdemo" />
@@ -100,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cent.design.factory.Client" />
+    <configuration name="Client (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cent.design.abstractfactory.Client" />
       <module name="mpdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cent.design.factory.*" />
+          <option name="PATTERN" value="com.cent.design.abstractfactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RoutingConsumerOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cent.mq.routing.RoutingConsumerOne" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cent.design.factory.Client" />
       <module name="mpdemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.cent.mq.routing.*" />
+          <option name="PATTERN" value="com.cent.design.factory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.RoutingProducer" />
         <item itemvalue="Application.RoutingConsumerTwo" />
-        <item itemvalue="Application.RoutingConsumerOne" />
       </list>
     </recent_temporary>
   </component>
@@ -206,8 +203,17 @@
       <workItem from="1601169885723" duration="42000" />
       <workItem from="1601171998268" duration="365000" />
       <workItem from="1601173477744" duration="8873000" />
-      <workItem from="1601363937546" duration="2337000" />
+      <workItem from="1601363937546" duration="3333000" />
+      <workItem from="1601427578116" duration="10113000" />
     </task>
+    <task id="LOCAL-00001" summary="练习">
+      <created>1601366353590</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601366353591</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,10 +252,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="395" y="91" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1598948537176" />
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1601364625156">
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser" timestamp="1601438115983">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601364625156" />
+    <state x="574" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1601438115983" />
     <state x="637" y="195" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1598952075551">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -266,22 +272,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="138" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1601178614981" />
-    <state width="1493" height="186" key="GridCell.Tab.0.bottom" timestamp="1601365007107">
+    <state width="1493" height="186" key="GridCell.Tab.0.bottom" timestamp="1601441006496">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601365007107" />
-    <state width="1493" height="186" key="GridCell.Tab.0.center" timestamp="1601365007106">
+    <state width="1493" height="186" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1601441006496" />
+    <state width="1493" height="186" key="GridCell.Tab.0.center" timestamp="1601441006495">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601365007106" />
-    <state width="1493" height="186" key="GridCell.Tab.0.left" timestamp="1601365007106">
+    <state width="1493" height="186" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1601441006495" />
+    <state width="1493" height="186" key="GridCell.Tab.0.left" timestamp="1601441006495">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601365007106" />
-    <state width="1493" height="186" key="GridCell.Tab.0.right" timestamp="1601365007107">
+    <state width="1493" height="186" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1601441006495" />
+    <state width="1493" height="186" key="GridCell.Tab.0.right" timestamp="1601441006495">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="186" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601365007107" />
+    <state width="1493" height="186" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1601441006495" />
     <state width="1493" height="172" key="GridCell.Tab.1.bottom" timestamp="1600336197172">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -326,10 +332,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="614" y="324" key="VCS.ChangelistChooser/0.0.1536.824@0.0.1536.824" timestamp="1601013135759" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601011595211">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1601366365148">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601011595211" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1601366365148" />
     <state x="564" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601011445658">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -342,16 +348,5 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601178876418" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cent/design/factorymethod/Client.java</url>
-          <line>2</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
